@@ -22,7 +22,7 @@ function Cart(){
             {
                 cart.length > 0 ?
                 (<div className="flex justify-center gap-x-10 flex-wrap">
-                    <div className="sm:w-[350px] md:[450px] lg:w-[500px]">
+                    <div className=" lg:w-[500px]">
                     {
                         cart.map((item , index) =>{
                             return <CartItem key={item.id} item={item} itemIndex={index} />
